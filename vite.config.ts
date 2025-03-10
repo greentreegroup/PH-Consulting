@@ -11,12 +11,19 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  build: {
+    outDir: 'dist', // Specify the output directory
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'), // Ensure this points to your entry HTML file
+      },
     },
   },
 }));
