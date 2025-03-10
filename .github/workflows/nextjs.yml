@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Next.js to GitHub Pages
 
 on:
   push:
@@ -24,8 +24,11 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: Export static files
+        run: npm run export
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # Change this to your build output directory 
+          publish_dir: ./out  # The default output directory for Next.js export 
