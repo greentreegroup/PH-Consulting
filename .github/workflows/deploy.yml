@@ -1,0 +1,37 @@
+name: Deploy Vite App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Deploy only when code is pushed to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js (specifying version 18)
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Build the Vite app
+      - name: Build the project
+        run: npm run build
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use GITHUB_TOKEN for authentication
+          publish_dir: ./dist  # Vite output directory, where the build files are generated
+          # Optional: If you're deploying to a custom folder like 'docs/', change the `publish_dir` accordingly.
