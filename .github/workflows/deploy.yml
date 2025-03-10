@@ -1,0 +1,48 @@
+name: Deploy Next.js App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment when pushing to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use Ubuntu as the OS
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'  # Set your desired Node.js version
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Build the Next.js app
+      - name: Build the project
+        run: npm run build  # Builds the app
+
+      # Step 5: Export the static files
+      - name: Export the app as static files
+        run: npm run export  # Exports the app to a static website
+
+      # Step 6: Set up Git to push changes
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step 7: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: |
+          git add -A
+          git commit -m "Deploy to GitHub Pages"
+          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # This token allows the action to push to your repo
