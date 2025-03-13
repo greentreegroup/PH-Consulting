@@ -69,13 +69,13 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <span className="px-3 py-1 rounded-full bg-ph/10 text-ph-dark text-sm font-medium inline-block mb-4">
-              About PH Consulting
+              About Acumen Advisory Consulting
             </span>
             <h1 className="heading-1 mb-6">
               Transforming Financial Advisory Practices Through Expert Guidance
             </h1>
             <p className="text-lg text-muted-foreground">
-              Founded on the principles of excellence and innovation, PH Consulting 
+              Founded on the principles of excellence and innovation, Acumen Advisory Consulting 
               partners with financial advisors to optimize their practices and achieve 
               sustainable growth.
             </p>
@@ -95,7 +95,7 @@ const About = () => {
                 From Industry Insight to Transformative Consulting
               </h2>
               <p className="text-muted-foreground mb-6">
-                PH Consulting was founded by Patricia Hernandez, a veteran of the financial 
+                Acumen Advisory Consulting was founded by Patricia Hernandez, a veteran of the financial 
                 advisory industry who identified a critical gap in practice management resources 
                 for independent advisors and small to mid-sized firms.
               </p>
@@ -106,7 +106,7 @@ const About = () => {
                 spectrum of practice management needs.
               </p>
               <p className="text-muted-foreground">
-                Today, PH Consulting works with financial advisors across the country, delivering 
+                Today, Acumen Advisory Consulting works with financial advisors across the country, delivering 
                 tailored solutions that drive growth, enhance client experiences, and optimize 
                 operational efficiency.
               </p>
@@ -157,7 +157,7 @@ const About = () => {
               Principles That Guide Our Work
             </h2>
             <p className="text-lg text-muted-foreground">
-              At PH Consulting, our core values shape how we approach every client 
+              At Acumen Advisory Consulting, our core values shape how we approach every client 
               engagement and inform the solutions we develop.
             </p>
           </div>
@@ -188,7 +188,7 @@ const About = () => {
               Our Team
             </span>
             <h2 className="heading-2 mb-6">
-              Meet the Experts Behind PH Consulting
+              Meet the Experts Behind Acumen Advisory Consulting
             </h2>
             <p className="text-lg text-muted-foreground">
               Our team brings decades of combined experience in financial advisory 

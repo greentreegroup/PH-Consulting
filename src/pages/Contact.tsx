@@ -17,7 +17,7 @@ const Contact = () => {
               Let's Discuss Your Practice Goals
             </h1>
             <p className="text-lg text-muted-foreground">
-              Schedule a consultation with our team to explore how PH Consulting 
+              Schedule a consultation with our team to explore how Acumen Advisory Consulting 
               can help transform your financial advisory practice.
             </p>
           </div>
