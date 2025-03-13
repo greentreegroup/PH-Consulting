@@ -37,28 +37,16 @@ const About = () => {
   
   const team = [
     {
-      name: "Patricia Hernandez",
+      name: "Alisa Kolodizner",
       title: "Founder & CEO",
       bio: "Former SVP at a major wealth management firm with 20+ years of experience in financial advisory practice management.",
       image: "https://source.unsplash.com/random/200x200/?professional-woman-1"
     },
     {
-      name: "David Wilson",
+      name: "Bavu Vilane",
       title: "Chief Strategy Officer",
       bio: "Previously managed a $2B AUM financial advisory practice. Expert in growth strategies and practice optimization.",
       image: "https://source.unsplash.com/random/200x200/?professional-man-1"
-    },
-    {
-      name: "Jennifer Lee",
-      title: "Head of Client Services",
-      bio: "15+ years in client experience management and retention strategies across wealth management firms.",
-      image: "https://source.unsplash.com/random/200x200/?professional-woman-2"
-    },
-    {
-      name: "Michael Rodriguez",
-      title: "Tax Planning Specialist",
-      bio: "CPA with extensive experience in tax-efficient investing strategies for high-net-worth individuals.",
-      image: "https://source.unsplash.com/random/200x200/?professional-man-2"
     }
   ];
 

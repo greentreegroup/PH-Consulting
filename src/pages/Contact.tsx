@@ -65,7 +65,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium mb-1">Phone</h3>
                       <p className="text-muted-foreground">
-                        <a href="tel:+12125551234" className="hover:text-foreground transition-colors">
+                        <a href="tel:+17734303534" className="hover:text-foreground transition-colors">
                           (773) 430-3534
                         </a>
                       </p>
@@ -79,7 +79,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium mb-1">Email</h3>
                       <p className="text-muted-foreground">
-                        <a href="mailto:info@phconsulting.com" className="hover:text-foreground transition-colors">
+                        <a href="mailto:info@acumenadvisoryconsulting" className="hover:text-foreground transition-colors">
                          info@acumenadvisoryconsulting
                         </a>
                       </p>
@@ -134,7 +134,7 @@ const Contact = () => {
                 <MapPin className="w-12 h-12 text-ph mx-auto mb-4" />
                 <h3 className="text-xl font-medium mb-2">Our Location</h3>
                 <p className="text-muted-foreground">
-                  123 Financial District, New York, NY 10001
+                4753 N. Broadway Chicago IL 60640
                 </p>
               </div>
             </div>

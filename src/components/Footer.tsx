@@ -105,26 +105,26 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-ph mr-3 mt-0.5" />
                 <span className="text-muted-foreground">
-                  123 Financial District<br />
-                  New York, NY 10001
+                4753 N. Broadway<br />
+                Chicago IL 60640
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-ph mr-3" />
                 <a 
-                  href="tel:+12125551234"
+                  href="tel:+17734303534"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  (212) 555-1234
+                  (773) 430-3534
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-ph mr-3" />
                 <a 
-                  href="mailto:info@phconsulting.com"
+                  href="mailto:info@acumenadvisoryconsulting"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  info@phconsulting.com
+                  info@acumenadvisoryconsulting
                 </a>
               </li>
             </ul>
