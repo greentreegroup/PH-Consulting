@@ -21,7 +21,7 @@ const Hero = () => {
               Transform Your Financial Practice With <span className="text-ph">Expert Consulting</span>
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl">
-              PH Consulting partners with financial advisors to optimize operations, 
+              Acumen Advisory Consulting partners with financial advisors to optimize operations, 
               drive growth, and deliver exceptional client experiences. Our tailored 
               solutions address your specific challenges and opportunities.
             </p>

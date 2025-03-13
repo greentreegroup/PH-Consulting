@@ -52,8 +52,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium mb-1">Office Location</h3>
                       <p className="text-muted-foreground">
-                        123 Financial District<br />
-                        New York, NY 10001
+                       4753 N. Broadway <br />
+                       Chicago IL 60640
                       </p>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                       <h3 className="font-medium mb-1">Phone</h3>
                       <p className="text-muted-foreground">
                         <a href="tel:+12125551234" className="hover:text-foreground transition-colors">
-                          (212) 555-1234
+                          (773) 430-3534
                         </a>
                       </p>
                     </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                       <h3 className="font-medium mb-1">Email</h3>
                       <p className="text-muted-foreground">
                         <a href="mailto:info@phconsulting.com" className="hover:text-foreground transition-colors">
-                          info@phconsulting.com
+                         info@acumenadvisoryconsulting
                         </a>
                       </p>
                     </div>

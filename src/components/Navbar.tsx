@@ -45,7 +45,6 @@ const serviceItems = [
     category: "Operations",
     items: [
       { name: "Compliance", icon: <ShieldCheck className="w-4 h-4 mr-2" />, path: "/services/compliance" },
-      { name: "Trading", icon: <TrendingUp className="w-4 h-4 mr-2" />, path: "/services/trading" },
       { name: "Task Automation", icon: <Cog className="w-4 h-4 mr-2" />, path: "/services/task-automation" },
       { name: "Portfolio Evaluation", icon: <FileText className="w-4 h-4 mr-2" />, path: "/services/portfolio-evaluation" },
     ]

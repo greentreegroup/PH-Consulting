@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const testimonials = [
   {
-    quote: "PH Consulting transformed our practice. We've seen a 40% increase in AUM within just 12 months of implementing their recommendations.",
+    quote: "Acumen Advisory Consulting transformed our practice. We've seen a 40% increase in AUM within just 12 months of implementing their recommendations.",
     author: "Sarah Johnson",
     title: "CFP®, Johnson Wealth Advisors",
     rating: 5

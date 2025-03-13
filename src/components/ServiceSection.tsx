@@ -52,12 +52,6 @@ const ServiceSection = () => {
       link: "/services/compliance"
     },
     {
-      icon: TrendingUp,
-      title: "Trading Optimization",
-      description: "Refine your trading processes and systems to maximize efficiency and performance.",
-      link: "/services/trading"
-    },
-    {
       icon: Cog,
       title: "Task Automation",
       description: "Identify and implement automation opportunities to reduce manual work and increase productivity.",

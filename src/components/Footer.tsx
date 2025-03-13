@@ -19,8 +19,7 @@ const Footer = () => {
     { name: "Client Retention", link: "/services/client-retention" },
     { name: "Tax Planning", link: "/services/tax-planning" },
     { name: "Lead Generation", link: "/services/lead-generation" },
-    { name: "Compliance", link: "/services/compliance" },
-    { name: "Trading", link: "/services/trading" }
+    { name: "Compliance", link: "/services/compliance" }
   ];
   
   const aboutLinks = [
@@ -134,7 +133,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © {currentYear} PH Consulting. All rights reserved.
+            © {currentYear} Acumen Advisory Consulting. All rights reserved.
           </p>
           
           <div className="flex flex-wrap gap-4 text-sm">
