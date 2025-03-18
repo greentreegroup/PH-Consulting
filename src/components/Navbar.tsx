@@ -1,3 +1,4 @@
+// src/components/Navbar.tsx
 
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -32,6 +33,14 @@ const serviceItems = [
     ]
   },
   {
+    category: "Team Development",
+    items: [
+      { name: "Recruiting", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/recruiting" },
+      { name: "Succession Planning", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/succession-planning" },
+      { name: "Well-being", icon: <Heart className="w-4 h-4 mr-2" />, path: "/counseling/well-being" },
+    ]
+  },
+  {
     category: "Client Services",
     items: [
       { name: "Client Retention", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/client-retention" },
@@ -45,14 +54,6 @@ const serviceItems = [
     items: [
       { name: "Task Automation", icon: <Cog className="w-4 h-4 mr-2" />, path: "/counseling/task-automation" },
       { name: "Portfolio Evaluation", icon: <FileText className="w-4 h-4 mr-2" />, path: "/counseling/portfolio-evaluation" },
-    ]
-  },
-  {
-    category: "Team Development",
-    items: [
-      { name: "Recruiting", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/recruiting" },
-      { name: "Succession Planning", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/succession-planning" },
-      { name: "Well-being", icon: <Heart className="w-4 h-4 mr-2" />, path: "/counseling/well-being" },
     ]
   }
 ];
@@ -121,25 +122,73 @@ const Navbar = () => {
             
             {/* Services Mega Menu */}
             <div className="absolute top-full left-0 mt-1 w-[600px] p-4 glass-card rounded-xl shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 grid grid-cols-2 gap-6">
-              {serviceItems.map((category, idx) => (
-                <div key={idx} className="space-y-3">
-                  <h3 className="font-medium text-sm text-muted-foreground">{category.category}</h3>
-                  <ul className="space-y-2">
-                    {category.items.map((item, index) => (
-                      <li key={index}>
-                        <Link 
-                          to={item.path} 
-                          className="flex items-center py-1 text-foreground/80 hover:text-ph transition-colors duration-200"
-                          onClick={closeMenus}
-                        >
-                          {item.icon}
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+              {/* Left Column */}
+              <div className="space-y-3">
+                <h3 className="font-medium text-sm text-muted-foreground">Business Growth</h3>
+                <ul className="space-y-2">
+                  {serviceItems[0].items.map((item, index) => (
+                    <li key={index}>
+                      <Link 
+                        to={item.path} 
+                        className="flex items-center py-1 text-foreground/80 hover:text-ph transition-colors duration-200"
+                        onClick={closeMenus}
+                      >
+                        {item.icon}
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <h3 className="font-medium text-sm text-muted-foreground">Team Development</h3>
+                <ul className="space-y-2">
+                  {serviceItems[1].items.map((item, index) => (
+                    <li key={index}>
+                      <Link 
+                        to={item.path} 
+                        className="flex items-center py-1 text-foreground/80 hover:text-ph transition-colors duration-200"
+                        onClick={closeMenus}
+                      >
+                        {item.icon}
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Right Column */}
+              <div className="space-y-3">
+                <h3 className="font-medium text-sm text-muted-foreground">Client Services</h3>
+                <ul className="space-y-2">
+                  {serviceItems[2].items.map((item, index) => (
+                    <li key={index}>
+                      <Link 
+                        to={item.path} 
+                        className="flex items-center py-1 text-foreground/80 hover:text-ph transition-colors duration-200"
+                        onClick={closeMenus}
+                      >
+                        {item.icon}
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <h3 className="font-medium text-sm text-muted-foreground">Operations</h3>
+                <ul className="space-y-2">
+                  {serviceItems[3].items.map((item, index) => (
+                    <li key={index}>
+                      <Link 
+                        to={item.path} 
+                        className="flex items-center py-1 text-foreground/80 hover:text-ph transition-colors duration-200"
+                        onClick={closeMenus}
+                      >
+                        {item.icon}
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
           
