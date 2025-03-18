@@ -19,7 +19,6 @@ const Footer = () => {
     { name: "Client Retention", link: "/services/client-retention" },
     { name: "Tax Planning", link: "/services/tax-planning" },
     { name: "Lead Generation", link: "/services/lead-generation" },
-    { name: "Compliance", link: "/services/compliance" }
   ];
   
   const aboutLinks = [

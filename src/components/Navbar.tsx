@@ -26,37 +26,33 @@ const serviceItems = [
   {
     category: "Business Growth",
     items: [
-      { name: "Practice Management", icon: <Briefcase className="w-4 h-4 mr-2" />, path: "/services/practice-management" },
-      { name: "Lead Generation", icon: <Target className="w-4 h-4 mr-2" />, path: "/services/lead-generation" },
-      { name: "Sales Coaching", icon: <Presentation className="w-4 h-4 mr-2" />, path: "/services/sales-coaching" },
-      { name: "Increase Share of Wallet", icon: <TrendingUp className="w-4 h-4 mr-2" />, path: "/services/share-of-wallet" },
+      { name: "Practice Management", icon: <Briefcase className="w-4 h-4 mr-2" />, path: "/counseling/practice-management" },
+      { name: "Lead Generation", icon: <Target className="w-4 h-4 mr-2" />, path: "/counseling/lead-generation" },
+      { name: "Sales Coaching", icon: <Presentation className="w-4 h-4 mr-2" />, path: "/counseling/sales-coaching" },
     ]
   },
   {
     category: "Client Services",
     items: [
-      { name: "Client Retention", icon: <Users className="w-4 h-4 mr-2" />, path: "/services/client-retention" },
-      { name: "Holistic Planning", icon: <BookOpen className="w-4 h-4 mr-2" />, path: "/services/holistic-planning" },
-      { name: "Estate Planning", icon: <FileText className="w-4 h-4 mr-2" />, path: "/services/estate-planning" },
-      { name: "Tax Planning", icon: <FileText className="w-4 h-4 mr-2" />, path: "/services/tax-planning" },
+      { name: "Client Retention", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/client-retention" },
+      { name: "Holistic Planning", icon: <BookOpen className="w-4 h-4 mr-2" />, path: "/counseling/holistic-planning" },
+      { name: "Estate Planning", icon: <FileText className="w-4 h-4 mr-2" />, path: "/counseling/estate-planning" },
+      { name: "Tax Planning", icon: <FileText className="w-4 h-4 mr-2" />, path: "/counseling/tax-planning" },
     ]
   },
   {
     category: "Operations",
     items: [
-      { name: "Compliance", icon: <ShieldCheck className="w-4 h-4 mr-2" />, path: "/services/compliance" },
-      { name: "Trading", icon: <TrendingUp className="w-4 h-4 mr-2" />, path: "/services/trading" },
-      { name: "Task Automation", icon: <Cog className="w-4 h-4 mr-2" />, path: "/services/task-automation" },
-      { name: "Portfolio Evaluation", icon: <FileText className="w-4 h-4 mr-2" />, path: "/services/portfolio-evaluation" },
+      { name: "Task Automation", icon: <Cog className="w-4 h-4 mr-2" />, path: "/counseling/task-automation" },
+      { name: "Portfolio Evaluation", icon: <FileText className="w-4 h-4 mr-2" />, path: "/counseling/portfolio-evaluation" },
     ]
   },
   {
     category: "Team Development",
     items: [
-      { name: "Recruiting", icon: <Users className="w-4 h-4 mr-2" />, path: "/services/recruiting" },
-      { name: "Succession Planning", icon: <Users className="w-4 h-4 mr-2" />, path: "/services/succession-planning" },
-      { name: "Multi-Generational Planning", icon: <Users className="w-4 h-4 mr-2" />, path: "/services/multi-generational-planning" },
-      { name: "Well-being", icon: <Heart className="w-4 h-4 mr-2" />, path: "/services/well-being" },
+      { name: "Recruiting", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/recruiting" },
+      { name: "Succession Planning", icon: <Users className="w-4 h-4 mr-2" />, path: "/counseling/succession-planning" },
+      { name: "Well-being", icon: <Heart className="w-4 h-4 mr-2" />, path: "/counseling/well-being" },
     ]
   }
 ];
