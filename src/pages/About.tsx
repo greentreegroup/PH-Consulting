@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { 
@@ -39,14 +38,14 @@ const About = () => {
     {
       name: "Alisa Kolodizner",
       title: "Founder & CEO",
-      bio: "Former SVP at a major wealth management firm with 20+ years of experience in financial advisory practice management.",
-      image: "https://source.unsplash.com/random/200x200/?professional-woman-1"
+      bio: "Alisa Kolodizner is focused on transforming workplaces to empower everyone and provide a sustainable culture of inclusion. She is a nationally ranked, top-performing relationship, financial management, and strategic business consultant for Fortune 500 companies, with extensive experience in developing, growing, and retaining relationships with $1B+ businesses, clients, and colleagues. With over a decade of focus on client experience through emerging technology, she led product and sales departments through pivotal initiatives. As a multifaceted sales and cross-silo leader, she thrives in transformative environments with diverse client-centric focused initiatives.",
+      image: "/img/alisa-kolodizner.png"
     },
     {
       name: "Bavu Vilane",
       title: "Chief Strategy Officer",
-      bio: "Previously managed a $2B AUM financial advisory practice. Expert in growth strategies and practice optimization.",
-      image: "https://source.unsplash.com/random/200x200/?professional-man-1"
+      bio: "Bavukile (Bavu) Vilane is an operations and startup specialist with a passion for building systems that drive growth and efficiency. Over the past five years, he has led operations across multiple startups, consulted for early-stage companies, and developed a reputation for problem-solving and strategic execution. His journey—from startup founder to operations lead—has uniquely positioned him to thrive in high-stakes environments. Today, his expertise has naturally evolved into the world of financial services, where he brings structure, relationship-building, and a performance mindset to his work in a dynamic, results-driven setting.",
+      image: "/img/bavu-vilane.png"
     }
   ];
 
